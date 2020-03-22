@@ -1,0 +1,34 @@
+body
+{
+  background-color: rgb(79, 203, 186);
+  margin: 10px auto;
+  width: 95%;
+}
+table
+{
+  width: 90%;
+  margin: auto;
+}
+th.titulo
+{
+  height: 50px;
+}
+td.center
+{
+  text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;
+}
+tr:nth-child(odd)
+{
+  background-color: #e8ce42;
+  color: rgb(9, 19, 55);
+}
+tr:nth-child(even)
+{
+  background-color: rgb(168, 200, 63);
+  color: rgb(9, 19, 55);
+}
